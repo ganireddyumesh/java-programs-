@@ -10,7 +10,7 @@ public class prime_number{
       }
       else{
         for(i=2;i<=n/2;i++){
-            if(n%2==0){
+            if(n%i==0){
                 flag=1;
                 break;
             }
